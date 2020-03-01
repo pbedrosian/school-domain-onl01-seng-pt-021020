@@ -23,7 +23,7 @@ class School
 
   def sort
     #I need to sort the values of each key
-    @roster.each do |key, value|
+    @roster.each do |key, value| #searches the hash and sorts the value of each key. 
     value.sort!
   end
   end
